@@ -1,0 +1,98 @@
+/* Container for all notifications */
+.notifications-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Style for individual notification cards */
+.notification-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.notification-card:hover {
+    transform: scale(1.02); /* Slight zoom effect when hovered */
+}
+
+/* Header section of the notification card */
+.notification-header {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Body section of the notification card */
+.notification-body {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Optional: Style the "Notifications" title */
+h3 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Pagination styles */
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination-link {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.pagination-link:hover {
+    background-color: #0056b3;
+}
+
+.pagination span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Back to Dashboard Button */
+.back-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.back-btn:hover {
+    background-color: #218838;
+}
+
+/* Optional: Make it more mobile-responsive */
+@media (max-width: 600px) {
+    .notification-card {
+        padding: 15px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .pagination-link {
+        padding: 8px;
+    }
+}

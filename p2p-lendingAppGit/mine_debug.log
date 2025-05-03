@@ -1,0 +1,100 @@
+RAW JSON:
+{"prevHash":"0000b3bf9f6b29dad879f77ae8fc7cd9efd040732aaa97f5d93d9af2e56cea2e","data":"Reward for user 3","nonce":199495,"hash":"0000cb5895cc8c9f888e15dc45ee3dfddf82dd5bfc88ec270bf80e478d4e9cb8"}
+{
+    "prevHash": "0000b3bf9f6b29dad879f77ae8fc7cd9efd040732aaa97f5d93d9af2e56cea2e",
+    "data": "Reward for user 3",
+    "nonce": 199495,
+    "clientHash": "0000cb5895cc8c9f888e15dc45ee3dfddf82dd5bfc88ec270bf80e478d4e9cb8",
+    "serverText": "0000b3bf9f6b29dad879f77ae8fc7cd9efd040732aaa97f5d93d9af2e56cea2eReward for user 3199495",
+    "serverHash": "0000cb5895cc8c9f888e15dc45ee3dfddf82dd5bfc88ec270bf80e478d4e9cb8"
+}RAW JSON:
+{"prevHash":"0000cb5895cc8c9f888e15dc45ee3dfddf82dd5bfc88ec270bf80e478d4e9cb8","data":"Reward for user 3","nonce":26477,"hash":"0000388b70f2a136556178e624c805b124f767b47148860026abe2f1f4cf6a7f"}
+{
+    "prevHash": "0000cb5895cc8c9f888e15dc45ee3dfddf82dd5bfc88ec270bf80e478d4e9cb8",
+    "data": "Reward for user 3",
+    "nonce": 26477,
+    "clientHash": "0000388b70f2a136556178e624c805b124f767b47148860026abe2f1f4cf6a7f",
+    "serverText": "0000cb5895cc8c9f888e15dc45ee3dfddf82dd5bfc88ec270bf80e478d4e9cb8Reward for user 326477",
+    "serverHash": "0000388b70f2a136556178e624c805b124f767b47148860026abe2f1f4cf6a7f"
+}RAW JSON:
+{"prevHash":"0000388b70f2a136556178e624c805b124f767b47148860026abe2f1f4cf6a7f","data":"Reward for user 4","nonce":183893,"hash":"0000478291e11573b0ed9e73d5ae2b0d15661501b44dac345b209e85f0e4f5b1"}
+{
+    "prevHash": "0000388b70f2a136556178e624c805b124f767b47148860026abe2f1f4cf6a7f",
+    "data": "Reward for user 4",
+    "nonce": 183893,
+    "clientHash": "0000478291e11573b0ed9e73d5ae2b0d15661501b44dac345b209e85f0e4f5b1",
+    "serverText": "0000388b70f2a136556178e624c805b124f767b47148860026abe2f1f4cf6a7fReward for user 4183893",
+    "serverHash": "0000478291e11573b0ed9e73d5ae2b0d15661501b44dac345b209e85f0e4f5b1"
+}RAW JSON:
+{"prevHash":"0000478291e11573b0ed9e73d5ae2b0d15661501b44dac345b209e85f0e4f5b1","data":"Reward for user 4","nonce":23874,"hash":"0000d6f01c13b8ba41b6fed16eb837429086abc9368c4e5172c454856aa64d66"}
+{
+    "prevHash": "0000478291e11573b0ed9e73d5ae2b0d15661501b44dac345b209e85f0e4f5b1",
+    "data": "Reward for user 4",
+    "nonce": 23874,
+    "clientHash": "0000d6f01c13b8ba41b6fed16eb837429086abc9368c4e5172c454856aa64d66",
+    "serverText": "0000478291e11573b0ed9e73d5ae2b0d15661501b44dac345b209e85f0e4f5b1Reward for user 423874",
+    "serverHash": "0000d6f01c13b8ba41b6fed16eb837429086abc9368c4e5172c454856aa64d66"
+}RAW JSON:
+{"prevHash":"0000d6f01c13b8ba41b6fed16eb837429086abc9368c4e5172c454856aa64d66","data":"Reward for user 4","nonce":156402,"hash":"00008f32f4e210139a1af83f330eb7c577727258d2c6a37db0ec30c84b65c99e"}
+{
+    "prevHash": "0000d6f01c13b8ba41b6fed16eb837429086abc9368c4e5172c454856aa64d66",
+    "data": "Reward for user 4",
+    "nonce": 156402,
+    "clientHash": "00008f32f4e210139a1af83f330eb7c577727258d2c6a37db0ec30c84b65c99e",
+    "serverText": "0000d6f01c13b8ba41b6fed16eb837429086abc9368c4e5172c454856aa64d66Reward for user 4156402",
+    "serverHash": "00008f32f4e210139a1af83f330eb7c577727258d2c6a37db0ec30c84b65c99e"
+}RAW JSON:
+{"prevHash":"00008f32f4e210139a1af83f330eb7c577727258d2c6a37db0ec30c84b65c99e","data":"Reward for user 4","nonce":91871,"hash":"0000238568cc758992058cf4ccb08e98e5021215e9533aec573c98f761ab2120"}
+{
+    "prevHash": "00008f32f4e210139a1af83f330eb7c577727258d2c6a37db0ec30c84b65c99e",
+    "data": "Reward for user 4",
+    "nonce": 91871,
+    "clientHash": "0000238568cc758992058cf4ccb08e98e5021215e9533aec573c98f761ab2120",
+    "serverText": "00008f32f4e210139a1af83f330eb7c577727258d2c6a37db0ec30c84b65c99eReward for user 491871",
+    "serverHash": "0000238568cc758992058cf4ccb08e98e5021215e9533aec573c98f761ab2120"
+}RAW JSON:
+{"prevHash":"0000238568cc758992058cf4ccb08e98e5021215e9533aec573c98f761ab2120","data":"Reward for user 4","nonce":95335,"hash":"000081a0be695de055d5dee4df9960d57ab476ca55e252b3e26c85db04d8347f"}
+{
+    "prevHash": "0000238568cc758992058cf4ccb08e98e5021215e9533aec573c98f761ab2120",
+    "data": "Reward for user 4",
+    "nonce": 95335,
+    "clientHash": "000081a0be695de055d5dee4df9960d57ab476ca55e252b3e26c85db04d8347f",
+    "serverText": "0000238568cc758992058cf4ccb08e98e5021215e9533aec573c98f761ab2120Reward for user 495335",
+    "serverHash": "000081a0be695de055d5dee4df9960d57ab476ca55e252b3e26c85db04d8347f"
+}RAW JSON:
+{"prevHash":"000081a0be695de055d5dee4df9960d57ab476ca55e252b3e26c85db04d8347f","data":"Reward for user 4","nonce":110211,"hash":"0000c756bd579c06b139131707da69a16523d429600f98947ba5f52fc9d56475"}
+{
+    "prevHash": "000081a0be695de055d5dee4df9960d57ab476ca55e252b3e26c85db04d8347f",
+    "data": "Reward for user 4",
+    "nonce": 110211,
+    "clientHash": "0000c756bd579c06b139131707da69a16523d429600f98947ba5f52fc9d56475",
+    "serverText": "000081a0be695de055d5dee4df9960d57ab476ca55e252b3e26c85db04d8347fReward for user 4110211",
+    "serverHash": "0000c756bd579c06b139131707da69a16523d429600f98947ba5f52fc9d56475"
+}RAW JSON:
+{"prevHash":"0000c756bd579c06b139131707da69a16523d429600f98947ba5f52fc9d56475","data":"Reward for user 4","nonce":7969,"hash":"00007c30f398448c7a52796651318f51f59a46a9ff49aa99a7c33f2f36cb38ee"}
+{
+    "prevHash": "0000c756bd579c06b139131707da69a16523d429600f98947ba5f52fc9d56475",
+    "data": "Reward for user 4",
+    "nonce": 7969,
+    "clientHash": "00007c30f398448c7a52796651318f51f59a46a9ff49aa99a7c33f2f36cb38ee",
+    "serverText": "0000c756bd579c06b139131707da69a16523d429600f98947ba5f52fc9d56475Reward for user 47969",
+    "serverHash": "00007c30f398448c7a52796651318f51f59a46a9ff49aa99a7c33f2f36cb38ee"
+}RAW JSON:
+{"prevHash":"00007c30f398448c7a52796651318f51f59a46a9ff49aa99a7c33f2f36cb38ee","data":"Reward for user 4","nonce":75171,"hash":"00000c95090f39c688bc1701cf9a82bfd29f709c2e225f5f6ce3706bf6428fc3"}
+{
+    "prevHash": "00007c30f398448c7a52796651318f51f59a46a9ff49aa99a7c33f2f36cb38ee",
+    "data": "Reward for user 4",
+    "nonce": 75171,
+    "clientHash": "00000c95090f39c688bc1701cf9a82bfd29f709c2e225f5f6ce3706bf6428fc3",
+    "serverText": "00007c30f398448c7a52796651318f51f59a46a9ff49aa99a7c33f2f36cb38eeReward for user 475171",
+    "serverHash": "00000c95090f39c688bc1701cf9a82bfd29f709c2e225f5f6ce3706bf6428fc3"
+}RAW JSON:
+{"prevHash":"00000c95090f39c688bc1701cf9a82bfd29f709c2e225f5f6ce3706bf6428fc3","data":"Reward for user 4","nonce":52153,"hash":"000005ca21afb3ec37506e56f67b750dcaaada505fbaf47f7a750f27eb2d3e41"}
+{
+    "prevHash": "00000c95090f39c688bc1701cf9a82bfd29f709c2e225f5f6ce3706bf6428fc3",
+    "data": "Reward for user 4",
+    "nonce": 52153,
+    "clientHash": "000005ca21afb3ec37506e56f67b750dcaaada505fbaf47f7a750f27eb2d3e41",
+    "serverText": "00000c95090f39c688bc1701cf9a82bfd29f709c2e225f5f6ce3706bf6428fc3Reward for user 452153",
+    "serverHash": "000005ca21afb3ec37506e56f67b750dcaaada505fbaf47f7a750f27eb2d3e41"
+}

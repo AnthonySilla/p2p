@@ -1,0 +1,69 @@
+create database p2p_lendingV2;
+
+use p2p_lendingV2;
+
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50),
+    password VARCHAR(255),
+    balance FLOAT DEFAULT 0
+);
+ALTER TABLE users ADD COLUMN last_mined TIMESTAMP DEFAULT NULL;
+
+ALTER TABLE users ADD COLUMN mining_attempts_today INT DEFAULT 0;
+
+ALTER TABLE users ADD COLUMN last_reset_date DATE DEFAULT NULL;
+
+
+
+
+CREATE TABLE loans (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    borrower_id INT,
+    amount FLOAT,
+    interest FLOAT,
+    duration INT,
+    funded_by INT DEFAULT NULL,
+    status VARCHAR(20) DEFAULT 'open'
+);
+
+CREATE TABLE blocks (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    prev_hash VARCHAR(64),
+    data TEXT,
+    nonce INT,
+    hash VARCHAR(64),
+    timestamp DATETIME
+);
+
+
+CREATE TABLE transactions (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT,
+    block_id INT,
+    reward INT,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (block_id) REFERENCES blocks(id)
+);
+
+CREATE TABLE send_transactions (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    sender_id INT,
+    receiver_id INT,
+    amount FLOAT,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    note VARCHAR(255) DEFAULT NULL
+);
+
+
+CREATE TABLE payments (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    loan_id INT NOT NULL,
+    amount DECIMAL(10, 2) NOT NULL,
+    payment_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (loan_id) REFERENCES loans(id) ON DELETE CASCADE
+);
+
+
